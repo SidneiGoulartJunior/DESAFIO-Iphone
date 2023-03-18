@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone | Apple</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"></script>
+</head>
+<header>
+    
+</header>
+
+<body>
+    <div class="cabecalho">
+            <a href="https://www.linkedin.com/in/dev-sid-goulart-jr/" target="_blank"><img class="logo-apple"src="./assets/logo.png" alt="logo-apple"></a>
+            <ul>
+                <a href="https://www.apple.com/br/mac/" target="_blank"><button class="menu"><li>Mac</li></button></a>
+                <a href="https://www.apple.com/br/ipad/" target="_blank"><button class="menu"><li>iPad</li></button></a>
+                <a href="https://www.apple.com/br/iphone//" target="_blank"><button class="menu"><li>iPhone</li></button></a>
+                <a href="https://www.apple.com/br/watch/" target="_blank"><button class="menu"><li>Watch</li></button></a>
+                <a href="https://www.apple.com/br/airpods/" target="_blank"><button class="menu"><li>AirPods</li></button></a>
+                <a href="https://www.apple.com/br/shop/accessories/all" target="_blank"><button class="menu"><li>Acessórios</li></button></a>
+                <a href="https://support.apple.com/pt-br" target="_blank"><button class="menu"><li>Suporte</li></button></a>
+            </ul>
+    </div>
+    <div class="corpo">
+        <div>
+            <h1 class="nome-aparelho" >iPhone 14</h1>
+
+            <h2 class="slogan">Tão poderoso. Tão ao seu alcance</h2>
+
+            <p class="paragrafo">Em dois tamanhos perfeitos. Agora com um toque de amarelo.</p>
+
+            <p class="preco">A partir de R$ 633,25/mês ou R$ 7.599*</p>
+
+            <a  href="https://www.apple.com/br/shop/buy-iphone/iphone-14" target="_blank"><button class="botao">Comprar</button></a>
+
+            <p class="escolha-cor">Escolha sua cor:</p>
+
+            <div>
+                <button onclick="trocaCor('#81a5c4'); trocaImg('./assets/iphone-azul.png')" class="azul troca"></button>  <!--onclick para puxar a função de troca de cor e troca de Img-->
+                <button onclick="trocaCor('#f7da47'); trocaImg('./assets/iphone-amarelo.png')" class="amarelo troca"></button> 
+                <button onclick="trocaCor('#c1c1c1'); trocaImg('./assets/iphone-branco.png')" class="branco troca"></button>
+                <button onclick="trocaCor('#272b33'); trocaImg('./assets/iphone-preto.png')" class="preto troca"></button>
+                <button onclick="trocaCor('#b50012'); trocaImg('./assets/iphone-vemelho.png')" class="vermelho troca"></button>
+                <button onclick="trocaCor('#ede7f1'); trocaImg('./assets/iphone-roxo.png')" class="roxo troca"></button>
+            </div>
+        </div>
+
+        <div class="circulo"></div> <!--Círculo que ficará atrás da imagem do aparelho-->
+        <img class="foto-aparelho" src="./assets/iphone-branco.png"><!--src precisa ser trocado na função-->
+    </div>
+
+</body>
+</html>
