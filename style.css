@@ -112,3 +112,26 @@ li {
     left: 0;
     clip-path: circle(600px at right 1000px); /*mecanismo para recortar*/
 }
+@media (max-width: 760px) {
+    ul {
+        gap: 50px;
+        margin-left: 50px;
+    }
+    .circulo {
+        width: 0;
+        height: 0;
+    }
+    .foto-aparelho {
+        position: sticky;
+    }
+}
+@media (max-width: 630px) {
+    ul {
+        gap: 5px;
+        margin-left: 5px;
+    }
+    .corpo {
+        display: block;
+    }
+   
+}
