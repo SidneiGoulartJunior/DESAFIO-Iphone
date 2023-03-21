@@ -1,4 +1,4 @@
-<h1 align="center">Treinando skills - LOJA APPLE</h1>
+<h1 align="center">Treinando skills - LOJA APPLE 📱</h1>
 
 ![logotipo-da-apple-espaco-sideral-lua-imagem-de-fundo](https://user-images.githubusercontent.com/125372973/226150706-82a068b4-ab92-4041-8cf0-23ba64c7fa15.jpg)
 <br>
